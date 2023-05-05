@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,300&family=Mali:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poopins', sans-serif;
+    margin: 0;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add{
+    background-color: rgb(143, 143, 60);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.note{
+    background-color: white;
+    box-shadow: 0 0 7px 0 rgb(0, 17, 255);
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+}
+
+.note .tools{
+    background-color: rgb(88, 61, 157);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.note .main{
+    background-color: rgb(209, 209, 209);
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    font-size: 1rem;
+    
+}
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    border: none;
+    width: 100%;
+    height: 400px;
+    font-size: 1rem;
+}
+
+.note .hidden{
+    display: none;
+}
